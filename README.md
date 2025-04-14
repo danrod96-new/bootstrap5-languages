@@ -1,5 +1,11 @@
-The _Languages for Bootstrap 3_ project provides a simple way to present
-language labels and names in a _Bootstrap 3_ project.
+# Languages For Bootstrap 5
+
+This project was originally developed to support [languages/flags for Boostrap 3](https://github.com/usrz/bootstrap-languages), I [forked](https://github.com/danrod96-new/bootstrap5-languages) this project to support Bootstrap 5, since the original project is somewhat dead and the original developer doesn't seem to reply my messages.
+
+--------------------------------------------------------------------------------
+
+The _Languages for Bootstrap 5_ project provides a simple way to present
+language labels and names in a _Bootstrap 5_ project.
 
 Head over to the [documentation](http://usrz.github.io/bootstrap-languages)
 pages for some hint on how languages are presented, and how to use this library.
@@ -7,8 +13,10 @@ pages for some hint on how languages are presented, and how to use this library.
 This project is distributed under the terms of the
 [Apache Software License, Version 2](LICENSE.md).
 
-Install from bower
-==========
+## Installation
+
+**@TODO:** Change from bower to npm 
+
 ```bash
 bower install bootstrap-language
 ```
