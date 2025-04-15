@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # Minify our CSS
-curl -X POST -s --data-urlencode 'input@languages.css' http://cssminifier.com/raw > languages.min.css
+./node_modules/css-minify/bin/css-minify.js -f languages.css --output .

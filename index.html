@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <title>Languages for Bootstrap 5</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:url"         content="https://esinergia.co/" /> 
     <meta property="og:title"       content="Languages for Bootstrap 5" /> 
@@ -97,7 +98,7 @@
           if (w.length < 999) for (x in a) a[x] = a[x].substring(w.length);
 
           /* Prettify */
-          $('<div class="panel-body panel-code"/>')
+          $('<div class="panel-body panel-code p-4 mb-4"/>')
               .html(prettyPrintOne($('<div/>').text(a.join('\n')).html(), 'html'))
               .insertBefore(element);
         });
@@ -240,7 +241,7 @@
           <p>Labels are omitted when one of the above mentioned classes is not used.</p>
 
           <div class="panel panel-default panel-narrow">
-            <div class="panel-body panel-sample">
+            <div class="panel-body panel-sample p-4">
               A native label         &nbsp;<span class="lang-sm lang-lbl"      lang="ja"></span>&nbsp;,
               then in english        &nbsp;<span class="lang-sm lang-lbl-en"   lang="ja"></span>&nbsp; and
               and finally using both &nbsp;<span class="lang-sm lang-lbl-full" lang="ja"></span>&nbsp;.
@@ -260,7 +261,7 @@
           <p>Icons are omitted when one of the above mentioned classes is not used.</p>
 
           <div class="panel panel-default panel-narrow">
-            <div class="panel-body panel-sample">
+            <div class="panel-body panel-sample p-4">
               Icons come in
               extra small <span class="lang-xs"  lang="is"></span>
               small       <span class="lang-sm"  lang="is"></span> or
@@ -281,7 +282,7 @@
           </p>
 
           <div class="panel panel-default panel-narrow">
-            <div class="panel-body panel-sample">
+            <div class="panel-body panel-sample p-4">
               <h1><span class="lang-lg lang-lbl" lang="be"></span>   large in a <code>&lt;h1/&gt;</code> heading</h1>
               <h1><span class="lang-sm lang-lbl" lang="bg"></span>   small in a <code>&lt;h1/&gt;</code> heading</h1>
               <h1><span class="lang-xs lang-lbl" lang="cs"></span> x-small in a <code>&lt;h1/&gt;</code> heading</h1>
@@ -378,7 +379,7 @@
           <div class="panel panel-default panel-narrow">
             <div class="panel-body panel-sample">
               <div class="btn-group dropup">
-                <button type="button" class="btn btn-secondary dropdown-toggle" id="menu-lang" data-bs-toggle="dropdown" aria-expanded="false">
+                <button type="button" class="btn btn-secondary dropdown-toggle my-4" id="menu-lang" data-bs-toggle="dropdown" aria-expanded="false">
                   <span class="lang-sm lang-lbl-full" lang="it"></span> <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="menu-lang">

@@ -324,7 +324,7 @@
 .lang-lg,
 .lang-lg:after       { top:   0px; position: relative; }
 .lang-sm             { top:   1px; position: relative; }
-.lang-sm:after       { top:  -1px; position: relative; }
+.lang-sm:after       { top:  -1px; position: relative; padding-left: 15px; }
 .lang-xs             { top:   4px; position: relative; }
 .lang-xs:after       { top:  -4px; position: relative; }
 
