@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap5-languages",
+  "version": "1.0.0",
+  "description": "Bootstrap Languages package for Boostrap 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrod96-new/bootstrap5-languages.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Bootstrap",
+    "5",
+    "Languages",
+    "HTML"
+  ],
+  "author": "Daniel Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danrod96-new/bootstrap5-languages/issues"
+  },
+  "homepage": "https://github.com/danrod96-new/bootstrap5-languages#readme",
+  "dependencies": {
+    "css-minify": "^2.1.0"
+  }
+}
