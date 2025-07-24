@@ -1,6 +1,6 @@
 # Languages For Bootstrap 5
 
-This project was originally developed to support [languages/flags for Boostrap 3](https://github.com/usrz/bootstrap-languages), I [forked](https://github.com/danrod96-new/bootstrap5-languages) this project to support Bootstrap 5, since the original project is somewhat dead and the original developer doesn't seem to reply my messages. We needed to upgrade this project to use it in our [Drupal Languages Dropdown](https://www.drupal.org/project/languages_dropdown) module.
+This project was originally developed to support [languages/flags for Boostrap 3](https://github.com/usrz/bootstrap-languages), I [forked](https://github.com/danrod96-new/bootstrap5-languages) this project to support Bootstrap 5, since the original project is somewhat dead and the original developer doesn't seem to reply my messages. We needed to upgrade this project to use it in our [Drupal Languages Dropdown](https://www.drupal.org/project/languages_dropdown) modules.
 
 --------------------------------------------------------------------------------
 
